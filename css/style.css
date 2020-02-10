@@ -1,0 +1,119 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-weight: 300;
+  text-align: center;
+  color: rgb(32, 32, 32);
+  background-color: #ffffff;
+  font-size: 20px;
+	font-family: sans-serif;
+}
+
+h1{
+  background-color:rgb(10, 191, 247);
+  color: #000;
+  font-size: 20px;
+  padding: 10px;
+  margin: 0px;
+  font-weight: 300;
+}
+
+.enunciado{
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.alternativas {
+  margin-bottom: 20px;
+  text-align: left;
+  display: inline-block;
+}
+
+.alternativas label{
+  display: block;
+  margin-bottom: 10px;
+}
+
+button{
+  height: 60px;
+  width: 262.97px;
+  font-family: sans-serif;
+	font-size: 22px;
+	background-color:rgba(135,206,250);
+	color: #fff;
+	border: 40px;
+  border-radius: 30px;
+  border-color: rgba(135,206,250);
+	padding: 20px;
+	cursor: pointer;
+  margin-bottom: 20px;
+}
+
+button:hover{
+  background-color: #444;
+  transition: 0.5s;
+}
+
+.campos{
+  margin-top: 100px;
+  text-align: center;
+}
+
+.slide{
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  z-index: 1;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.active-slide{
+  opacity: 1;
+  z-index: 2;
+}
+
+.quiz-container{
+  position: relative;
+  height: 500px;
+  margin-top: 40px;
+}
+
+.imagem-quiz{
+	height: 200px;
+}
+
+.input-padrao{
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input-padrao:hover{
+  box-shadow:  1px 1px 5px 1px rgba(135,206,250), -1px -1px 5px 1px rgba(135,206,250), 1px -1px 5px 1px rgba(135,206,250), -2px 1px 5px 1px rgba(135,206,250);
+  transition: 0.5s;
+}
+
+footer{
+  position:absolute;
+  bottom:0;
+  width:100%;
+  background-color: rgb(0, 0, 0);
+  padding: 20px;
+}
+
+.enunciado::first-letter {
+color: rgb(10, 191, 247);
+}
+
+
+footer p{
+  font-style: normal #fff;
+}
+
+.fa {
+  color: rgb(10, 191, 247);
+}
